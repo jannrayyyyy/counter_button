@@ -78,7 +78,7 @@ class _AnimatedCounterState extends State<CounterButton> {
                   children: <Widget>[
                     SizedBox(
                       width: 32.0,
-                      height: 32.0,
+                      height: 20,
                       child: IconButton(
                         onPressed: widget.loading
                             ? null
@@ -121,7 +121,7 @@ class _AnimatedCounterState extends State<CounterButton> {
                       child: SizedBox(
                         key: Key(widget.count.toString()),
                         width: 32.0,
-                        height: 32.0,
+                        height: 20,
                         child: Center(
                           child: Text(
                             widget.count.toString(),
@@ -135,7 +135,7 @@ class _AnimatedCounterState extends State<CounterButton> {
                     ),
                     SizedBox(
                       width: 32.0,
-                      height: 32.0,
+                      height: 20,
                       child: IconButton(
                         onPressed: widget.loading
                             ? null

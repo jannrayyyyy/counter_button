@@ -36,7 +36,7 @@ class _MyAppState extends State<MyApp> {
               });
             },
             count: _counterValue,
-            countColor: Colors.purple,
+            countColor: Colors.blue,
             buttonColor: Colors.purpleAccent,
             progressColor: Colors.purpleAccent,
           ),
